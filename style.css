@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     /* height: 100px; */
 }
 .card{
@@ -18,9 +19,23 @@
     color: white;
     justify-content: center;
     align-items: center;
+    padding: 11px;
+    margin: 12px;
 }
 .image img{
     width: 207px;
+}
+.image{
+    position: relative;
+}
+.capsule{
+    position: absolute;
+    z-index: 10;
+    bottom: 5px;
+    right: 3px;
+    background-color: rgba(0, 0, 0, 0.524);
+    padding: 2px;
+    border-radius: 5px;
 }
 .text{
     margin-left: 15px;
